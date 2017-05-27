@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\PoolGame.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{35DBBFE2-A298-4F14-B55D-13D8DD7E3577}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\PoolGame.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\PoolGameEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{B9E43059-9A59-499D-A49F-302F712A9E85}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\PoolGame">
+			<UniqueIdentifier>{56C722F9-1E80-4E00-A7CE-294250F157B2}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\PoolGame\PoolGame.Build.cs">
+			<Filter>Source\PoolGame</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\PoolGame\PoolGame.cpp">
+			<Filter>Source\PoolGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PoolGame\PoolGame.h">
+			<Filter>Source\PoolGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\PoolGame\PoolGameGameModeBase.cpp">
+			<Filter>Source\PoolGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PoolGame\PoolGameGameModeBase.h">
+			<Filter>Source\PoolGame</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
